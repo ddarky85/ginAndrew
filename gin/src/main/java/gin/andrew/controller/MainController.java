@@ -24,8 +24,14 @@ public class MainController {
 	private MainService mainService;
 	
 	@RequestMapping(value="/contents/board.do")
-    public ModelAndView test(Map<String,Object> commandMap) throws Exception{
+    public ModelAndView board(Map<String,Object> commandMap) throws Exception{
         ModelAndView mv = new ModelAndView("board");
+        return mv;
+    }
+	
+	@RequestMapping(value="/contents/boardpostview.do")
+    public ModelAndView boardContent(Map<String,Object> commandMap) throws Exception{
+        ModelAndView mv = new ModelAndView("boardpostview");
         return mv;
     }
 	

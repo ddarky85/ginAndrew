@@ -14,9 +14,11 @@
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
+      <a href="/contents/boardpostview.do">
       <img src="../resources/image/sandwich.jpg" alt="Sandwich" style="width:100%">
       <h3>The Perfect Sandwich, A Real NYC Classic</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </a>
     </div>
     <div class="w3-quarter">
       <img src="../resources/image/steak.jpg" alt="Steak" style="width:100%">
